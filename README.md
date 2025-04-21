@@ -1,9 +1,8 @@
-
 # ✈️ Airline Assistant – GenAI Capstone Project (Kaggle x Google)
 
-![Demo Screenshot](demo.png)
-![Demo Screenshot](demo1.png)
-![Demo Screenshot](demo2.png)
+![Demo Screenshot 1](assets/demo.png)  
+![Demo Screenshot 2](assets/demo1.png)  
+![Demo Screenshot 3](assets/demo2.png)
 
 ---
 
@@ -32,6 +31,21 @@ The assistant interacts with users just like a real airline support agent:
 
 ---
 
+## ⚙️ Setup Instructions (Important!)
+
+To run this notebook, you must add your **Google Generative AI API key**:
+
+1. Go to **"Add-ons" > "Secrets"** (in Kaggle)
+2. Add a new secret named:
+
+```
+GOOGLE_API_KEY
+```
+
+3. Paste your Gemini API key as the value (from https://makersuite.google.com/app/apikey)
+
+---
+
 ## 🧠 How It Works
 
 | Component | Description |
@@ -56,7 +70,8 @@ It showcases how we can combine **LLMs, embeddings, and interface tools** to bui
 ## 📁 Files
 
 - `notebook.ipynb` – full interactive assistant
-- `demo.png` – chatbot demo screenshot
+- `assets` – demo pictures
+
 
 ---
 
